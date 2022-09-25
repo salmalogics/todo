@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="todo.css">
+
+    <title>TO DO LIST</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    
+    <Script>
+       
+        $(document).ready(function(){
+            
+            $('#add').click(function(){
+                var todo=$('input').val();
+                if(todo==""){
+                        alert("enter a task");
+                    
+            }else{
+
+                   
+                    $("#ol1").append('<li>'+todo+'<button id="b1" >DEL</button>'+'</li>');
+                    $('li').click(function(){
+                    $(this).css("text-decoration","line-through");
+    
+                    });
+                
+                    
+                    $('li').dblclick(function(){
+                        // $('button').dblclick(function(){  
+                       
+                            // $(this).hide();
+                            $(this).hide();
+            
+                            });
+
+
+
+// ------------------------------------------------
+
+                            // $('ol1').on({
+                            //     dblclick:function(){
+                        
+                            //     $(this).hide();
+                            //     },
+
+                            //     click:function(){
+                        
+                            //     $(this).css("text-decoration","line-through");
+                            //     },
+                        
+            
+                            // });
+                      
+
+                   
+                
+                }
+                
+            
+                
+                
+            
+                // 
+            
+            
+            
+            // $('li').dblclick(function(){
+            //  $(this).fadeout(3000);
+                            
+            // });
+
+
+
+
+
+
+            });
+            // document.getElementById('input').value=""
+           
+            
+            // $('#input').focus(function(){
+            //         $(this).text(" ");
+            //     })
+
+        });
+            
+     </Script> 
+   
+</head>
+<body>
+    <div id="div1">
+        
+            <h1 id="h1"> Simple To Do List</h1>
+            <p id="P1">Click and drag to recorder ,double click to cross an item off</p>
+            <input type="text" id="input">
+            <button id="add">+ ADD</button>
+            <p id="p"></p>
+            
+                
+               <ol id="ol1"></ol>
+
+               <!-- <input type="checkbox" name="mark" id="check"> -->
+                <!-- <button id="remove"></button> -->
+           
+        
+    </div>
+    
+    
+    
+</body>
+</html>

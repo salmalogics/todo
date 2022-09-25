@@ -1,0 +1,62 @@
+#add{
+    
+           
+    background-color: rgb(24, 33, 209);
+    width: 55px;
+    height: 25px;
+    border-radius: 4px;
+    text-shadow: 1px 0px 0px ;
+    color: rgb(252, 255, 255);
+    stroke: black;
+    stroke-width: 1px;
+
+}
+#p1{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+#div1{
+    text-align: center;
+    margin: 200px;
+    margin-left: 450px;
+    width: 400px;
+    height: 250px ;
+    background-color: antiquewhite;
+    border-color: rgb(136, 126, 126);
+    box-shadow: 10px 10px 10px;
+    border-radius: 8px;
+
+
+}
+#h1{
+    color: brown;
+}
+#input{
+    width: 290px;
+    border: rgb(226, 187, 135);
+}
+#div2{
+    border: 2px;
+    border-color: black;
+    /* background-color: blue; */
+    color: blue;
+    width: 300px;
+    height: 400px;
+}
+#ol1{
+    text-align: left;
+}
+#b1{
+   width: 31px;
+   height: 21px;
+   text-align: center;
+    margin-left: 200PX;
+    margin-right:20px ;
+    /* padding-right: 2px; */
+    font-family: cursive ;
+    font-size: 7PX;
+   color: white;
+   background-color: red;
+   border-radius: 90%;
+
+}
